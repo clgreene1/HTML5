@@ -18,24 +18,24 @@ body {background-color: #3c2d20
 
 .box1{
     grid-column: 1/6;
-    grid-row: 1;
-    border: 1px solid #333;
+    grid-row: 1/2;
     font-family: "News Reader", "Times New Roman", serif;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
-background-color: white}
-h1{
+    padding: 5px;
+    background-color: white}
+.autumn{
     color: #a47a4c;
+    font-size: 40px
 }
 
 .box2{
     grid-column: 1/6;
-    grid-row: 2;
+    grid-row: 2/2;
     font-family: "News Reader", "Times New Roman", serif;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #584534;
 }
 .box2 > ul li{
@@ -100,6 +100,9 @@ textarea.rounded {
 	outline: 0;
     -webkit-appearance: none;}
 
-
+footer{
+    text-align: center;
+    color:#928476;
+}
 
 
