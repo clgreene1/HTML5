@@ -57,12 +57,13 @@ h1{
     background-image: url(images/autumn1.jpg);
 }
 
-.box6{
+.box4{
     grid-column: 1/3;
     grid-row:9/7;
     text-align: center
     display: block;
     margin: 0 auto ;
+    color: #f1cfab;
     background-color: #584534;
 }
 
