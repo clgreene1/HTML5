@@ -28,20 +28,27 @@
         
     <div class="box box4"> 
          <fieldset>
-             <label>First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+             <label id="first">First Name:</label>
              <input type="text" class="rounded" name="firstname" style="height: 40px; width:190px"/>
-             <label>Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+             <label id="last">Last Name:</label>
              <input type="text" class="rounded" name="lastname" style="height: 40px; width:190px"/> 
              </fieldset><br>
             <fieldset>
-             <label>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-             <input type="text" class="rounded" name="email" style="height: 40px; width:190px" />
-             <label>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+             <label id="email">Email:</label>
+             <input type="text" class="rounded" id="email1" name="email" style="height: 40px; width:190px" />
+             <label id="phone">Phone:</label>
              <input type="text" class="rounded" name="phone number" style="height: 40px; width:190px" />
              <p>
-                <label for="comments">Comments</label><br>
+                <label for="comments">Reservations and Comments</label><br>
                 <textarea class="rounded" rows="7" cols="50" id="comments">
                 </textarea></p>
+                <form method="get" action="http://www.myserver.com/cgi-bin/mailscript/">
+
+                <input type="image" img src=images/submit1.png width="75" height="25" alt="submit!"
+                 value="submit" />
+
+</form>
+                
          </fieldset>
      </div>
       
