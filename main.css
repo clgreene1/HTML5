@@ -23,10 +23,15 @@ body {background-color: #3c2d20
     font-size: 20px;
     text-align: center;
     padding: 5px;
-    background-color: white}
+    background-color: white;
+    
+}
 .autumn{
     color: #a47a4c;
-    font-size: 40px
+    font-size: 45px;
+    font-family: nelson-engraved, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .box2{
@@ -37,6 +42,9 @@ body {background-color: #3c2d20
     text-align: center;
     padding: 5px;
     background-color: #584534;
+    font-family: nelson, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .box2 > ul li{
     display: inline;
@@ -100,6 +108,11 @@ textarea.rounded {
 	outline: 0;
     -webkit-appearance: none;}
 
+iframe{
+    display: block;
+    margin: 10px auto;
+    
+}
 footer{
     text-align: center;
     color:#928476;
